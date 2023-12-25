@@ -32,6 +32,9 @@ code {
 #root > div > div > div.MuiDataGrid-main > div:nth-child(3){
   display: none;
 }
+#root > div > div.MuiDataGrid-root > div > div:nth-child(3){
+  display: none;
+}
 
 .MuiDataGrid-cell:focus{
   outline: none;
