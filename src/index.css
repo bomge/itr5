@@ -37,7 +37,7 @@ code {
 }
 .MuiDataGrid-root > div > div:nth-child(3){
   display: none;
-}
+}s
 *[data-content*="MUI X Missing license key"] {
   display: none;
 }
