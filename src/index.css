@@ -32,7 +32,10 @@ code {
 #root > div > div > div.MuiDataGrid-main > div:nth-child(3){
   display: none;
 }
-#root > div > div.MuiDataGrid-root > div > div:nth-child(3){
+#root > div > div.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor > div > div:nth-child(3){
+  display: none;
+}
+.MuiDataGrid-root > div > div:nth-child(3){
   display: none;
 }
 *[data-content*="MUI X Missing license key"] {
