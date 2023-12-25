@@ -1,5 +1,5 @@
 import * as React from "react";
-import { DataGridPro, gridClasses, useGridApiRef } from "@mui/x-data-grid-pro";
+import { DataGridPro, gridClasses } from "@mui/x-data-grid-pro";
 
 import { CSVLink } from "react-csv";
 
@@ -87,20 +87,13 @@ export default function InfiniteLoadingGrid() {
       return row;
     };
 
-    // const rowws = [...loadedRows]
-    // const updatedRows = rowws.map((row) => applyErrors(row));
-
-    // const updatedRows = loadedRows.map((row) => applyErrors(row));
-
     const clonedRows = deepClone(initData); // Deep clone the array
     const updatedRows = clonedRows.map((row) => applyErrors(row));
 
 
     setLoadedRows(updatedRows);
 
-    // setLoadedRows(prevRows => {
-    //   return prevRows.map((row) => applyErrors(row));
-    // });
+   
   }
 
   useEffect(() => {
