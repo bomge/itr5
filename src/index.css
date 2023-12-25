@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input-number-override {
+  width: 96px !important;
+}
+.p-slider-handle{
+  border: black;
+}
+
+#root > div > div > div.MuiDataGrid-main.css-204u17-MuiDataGrid-main > div:nth-child(3){
+  display: none;
+}
+
+.MuiDataGrid-cell:focus{
+  outline: none;
+}
+.MuiDataGrid-cell:focus-within{
+  outline: none;
+}
+.MuiDataGrid-cell:focus-within{
+  outline: none;
+}
