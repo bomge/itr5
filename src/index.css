@@ -35,7 +35,9 @@ code {
 #root > div > div.MuiDataGrid-root > div > div:nth-child(3){
   display: none;
 }
-
+*[data-content*="MUI X Missing license key"] {
+  display: none;
+}
 .MuiDataGrid-cell:focus{
   outline: none;
 }
