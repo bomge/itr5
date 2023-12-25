@@ -29,6 +29,9 @@ code {
 #root > div > div.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.css-9dy4ee > div.MuiDataGrid-main.css-opb0c2 > div:nth-child(3){
   display: none;
 }
+#root > div > div > div.MuiDataGrid-main > div:nth-child(3){
+  display: none;
+}
 
 .MuiDataGrid-cell:focus{
   outline: none;
